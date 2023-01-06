@@ -22,8 +22,6 @@ Get quick answers to common questions about setting up Rackspace Office 365.
 
 The purpose of this document is to provide instruction on how to setup a brand new Office 365 environment through Rackspace.  
 
-**Note:** Due to the recent increase in requests for assistance to Rackspace Cloud Office support, a temporary process in which you can request Microsoft to assist with adding O365 licensing and DNS setup has been implemented. You can still perform these steps on your own with the steps found in the appendix at the bottom of this article. 
-
 For more information about prerequisite terminology, see
 [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
@@ -34,17 +32,14 @@ The Microsoft 365 tenant that you create is permanent. If you already have an ex
 
 <image alt="Control Panel Login" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/Login.png" title="Control Panel Login">
 
-2.1 In the Microsoft Office 365 section, select **Add Office 365**.
+2. In the Microsoft Office 365 section, select **Add Office 365**.
 
 <image alt="Add Office 365" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/AddO365.png" title="Add Office 365">
-
-2.2 For existing tenant, select **Manage Office 365**. 
-
-<image alt="Manage Office 365" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/ManageO365.png" title="Manage Office 365">
 
 3.	Enter a tenant name using only letters and numbers.
 A tenant is a unique name for your organization within the Office 365 portal. Your tenant name is your **account ID** on Microsoft’s systems.
 If the tenant ID that you enter is valid and available, a green check box appears next to the name.
+ 
 4.	Fill in the requested information. All fields are required.
 
 <image alt="Create Tenant" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/CreateTenant.png" title="Create Tenant">
@@ -73,22 +68,8 @@ If the tenant ID that you enter is valid and available, a green check box appear
 
 <image alt="Update Password" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/UpdatePassword.png" title="Update Password">
   
-8.  First user admin@{tenantName}.onmicrosoft.com will log into Microsoft 365 Admin Center and will add the domain and configure Office 365 tenant.  Administrators can contact Microsoft Support for assistance per the instructions below. 
-  
-### How to get assistance from Microsoft Support
-1.  For assistance adding your domain and configuring Office 365 tenant, please **select Help & Support button** in the Office 365 Dashboard to contact **Microsoft Support**. 
+8.  First user admin@{tenantName}.onmicrosoft.com will log into Microsoft 365 Admin Center and will add the domain and configure Office 365 tenant.
 
-<image alt="Help & Support" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/HelpandSupport.png" title="Help & Support">
-
-2.  In the **How can we help?** field enter **“Rackspace Customer – Need Assistance”** and hit enter. It is important that you mention above in the Title section of the ticket, so your ticket gets into the appropriate queue on the first contact. At this time, you can click on the **Contact Support** button. Please see the template below. 
-
-<image alt="How can we help?" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/NeedAssistance.png" title="How can we help?">
-
-**Note:** You can complete the domain setup and Office 365 tennant configuration yourself by following the steps in Appendix section. If you cannot, please follow the above steps to contact Microsoft Support   
-
-<image alt="Contact Support" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/ContactSupport.png" title="Contact Support">
-
-<image alt="Support Form" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/SupportForm.png" title="Support Form">
 
 ### Add Users and assigning a license     
 After you have verified your domain in the tenant, you can add users and assign licensing as follows:                                                                         
@@ -120,13 +101,6 @@ After you have verified your domain in the tenant, you can add users and assign 
 
 #### Does Rackspace update the customer’s DNS records?
 No. Admins are responsible for updating their domain’s DNS records. Rackspace does not have access to your externally hosted DNS and cannot accept access to external DNS hosting accounts.
-
-#### When do I contact Microsoft Support?
-After you have created Office 365 tenant in Step 3 above in this article. Microsoft Support will help you complete the configuration using the Microsoft 365 admin center.
-
-#### Can I contact Microsoft Support before creating the Office 365 tenant?
-We will not recommend you contact Microsoft Support until Office 365 tenant is created. Microsoft Support will not be able to provide configuration assistance until tenant is created through Rackspace admin page.
-
 
 ### Appendix                                                                             
                                                                             
